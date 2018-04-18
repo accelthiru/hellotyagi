@@ -11,5 +11,10 @@ pipeline {
         echo 'WORLD'
       }
     }
+    stage('test3') {
+      steps {
+        echo 'ACCEL'
+      }
+    }
   }
 }
