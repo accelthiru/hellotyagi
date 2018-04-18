@@ -16,5 +16,10 @@ pipeline {
         echo 'ACCEL'
       }
     }
+    stage('test4') {
+      steps {
+        echo 'JAPAN'
+      }
+    }
   }
 }
